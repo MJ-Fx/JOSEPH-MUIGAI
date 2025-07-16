@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Joseph Muigai - Professional Web Developer & Digital Expert</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="gold-text">JM</span>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Hero Section -->
+    <section class="services-hero">
+        <div class="container">
+            <div class="services-hero-content">
+                <h1>My <span class="gold-text">Services</span></h1>
+                <p>Professional solutions tailored to your business needs with transparent pricing</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Plans Section -->
+    <section class="pricing-section">
+        <div class="container">
+            <h2>Service <span class="gold-text">Packages</span></h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">Choose the perfect package for your needs. All prices are in USD.</p>
+            
+            <div class="pricing-tabs">
+                <button class="tab-btn active" data-tab="web-dev">Web Development</button>
+                <button class="tab-btn" data-tab="design">Graphic Design</button>
+                <button class="tab-btn" data-tab="forex">Forex Trading</button>
+                <button class="tab-btn" data-tab="social">Social Media</button>
+            </div>
+            
+            <!-- Web Development Packages -->
+            <div class="pricing-content active" id="web-dev">
+                <div class="pricing-grid">
+                    <!-- Basic Package -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Basic Website</h3>
+                            <div class="price-box">
+                                <span class="current-price">$30</span>
+                                <span class="old-price">$50</span>
+                                <span class="discount-badge">Save 29%</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check gold-text"></i> 5 Custom Pages</li>
+                                <li><i class="fas fa-check gold-text"></i> Responsive Design</li>
+                                <li><i class="fas fa-check gold-text"></i> Basic SEO Setup</li>
+                                <li><i class="fas fa-check gold-text"></i> Contact Form</li>
+                                <li><i class="fas fa-check gold-text"></i> 1 Month Support</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn outline-btn">Get Started</a>
+                    </div>
+                    
+                    <!-- Professional Package -->
+                    <div class="pricing-card featured">
+                        <div class="popular-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <h3>Business Website</h3>
+                            <div class="price-box">
+                                <span class="current-price">$150</span>
+                                <span class="old-price">$200</span>
+                                <span class="discount-badge">Save 25%</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check gold-text"></i> Up to 15 Pages</li>
+                                <li><i class="fas fa-check gold-text"></i> CMS Integration</li>
+                                <li><i class="fas fa-check gold-text"></i> Advanced SEO</li>
+                                <li><i class="fas fa-check gold-text"></i> E-commerce Functionality</li>
+                                <li><i class="fas fa-check gold-text"></i> 3 Months Support</li>
+                                <li><i class="fas fa-check gold-text"></i> Google Analytics</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn gold-btn">Get Started</a>
+                    </div>
+                    
+                    <!-- Premium Package -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Custom Web App</h3>
+                            <div class="price-box">
+                                <span class="current-price">$600</span>
+                                <span class="old-price">$1000</span>
+                                <span class="discount-badge">Save 40%</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check gold-text"></i> Fully Custom Development</li>
+                                <li><i class="fas fa-check gold-text"></i> User Authentication</li>
+                                <li><i class="fas fa-check gold-text"></i> Database Integration</li>
+                                <li><i class="fas fa-check gold-text"></i> API Development</li>
+                                <li><i class="fas fa-check gold-text"></i> 6 Months Support</li>
+                                <li><i class="fas fa-check gold-text"></i> Priority Maintenance</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn outline-btn">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Graphic Design Packages -->
+            <div class="pricing-content" id="design">
+                <div class="pricing-grid">
+                    <!-- Basic Design Package -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Logo Design</h3>
+                            <div class="price-box">
+                                <span class="current-price">$20</span>
+                                <span class="old-price">$40</span>
+                                <span class="discount-badge">Save 50%</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check gold-text"></i> 3 Logo Concepts</li>
+                                <li><i class="fas fa-check gold-text"></i> 3 Revisions</li>
+                                <li><i class="fas fa-check gold-text"></i> Vector Files</li>
+                                <li><i class="fas fa-check gold-text"></i> PNG & JPEG Files</li>
+                                <li><i class="fas fa-check gold-text"></i> 1 Week Delivery</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn outline-btn">Get Started</a>
+                    </div>
+                    
+                    <!-- Branding Package -->
+                    <div class="pricing-card featured">
+                        <div class="popular-badge">Best Value</div>
+                        <div class="pricing-header">
+                            <h3>Full Branding</h3>
+                            <div class="price-box">
+                                <span class="current-price">$60</span>
+                                <span class="old-price">$120</span>
+                                <span class="discount-badge">Save 50%</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check gold-text"></i> Logo Design</li>
+                                <li><i class="fas fa-check gold-text"></i> Business Cards</li>
+                                <li><i class="fas fa-check gold-text"></i> Letterhead</li>
+                                <li><i class="fas fa-check gold-text"></i> Social Media Kit</li>
+                                <li><i class="fas fa-check gold-text"></i> Brand Guidelines</li>
+                                <li><i class="fas fa-check gold-text"></i> 2 Weeks Delivery</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn gold-btn">Get Started</a>
+                    </div>
+                    
+                    <!-- Premium Design Package -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Website Design</h3>
+                            <div class="price-box">
+                                <span class="current-price">$100</span>
+                                <span class="old-price">$150</span>
+                                <span class="discount-badge">Save 25%</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check gold-text"></i> Full UI/UX Design</li>
+                                <li><i class="fas fa-check gold-text"></i> 10 Page Mockups</li>
+                                <li><i class="fas fa-check gold-text"></i> Mobile Responsive</li>
+                                <li><i class="fas fa-check gold-text"></i> Style Guide</li>
+                                <li><i class="fas fa-check gold-text"></i> 3 Revisions</li>
+                                <li><i class="fas fa-check gold-text"></i> 3 Weeks Delivery</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn outline-btn">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Forex Trading Packages -->
+            <div class="pricing-content" id="forex">
+                <div class="pricing-grid">
+                    <!-- Basic Forex Package -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Beginner Coaching</h3>
+                            <div class="price-box">
+                                <span class="current-price">$30</span>
+                                <span class="old-price">$100</span>
+                                <span class="discount-badge">Save 70%</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check gold-text"></i> 4 Weekly Sessions</li>
+                                <li><i class="fas fa-check gold-text"></i> Market Basics</li>
+                                <li><i class="fas fa-check gold-text"></i> Risk Management</li>
+                                <li><i class="fas fa-check gold-text"></i> Trading Plan Setup</li>
+                                <li><i class="fas fa-check gold-text"></i> 1 Month Access</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn outline-btn">Get Started</a>
+                    </div>
+                    
+                    <!-- Advanced Forex Package -->
+                    <div class="pricing-card featured">
+                        <div class="popular-badge">Recommended</div>
+                        <div class="pricing-header">
+                            <h3>Advanced Strategies</h3>
+                            <div class="price-box">
+                                <span class="current-price">$100</span>
+                                <span class="old-price">$150</span>
+                                <span class="discount-badge">Save 25%</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check gold-text"></i> 8 Weekly Sessions</li>
+                                <li><i class="fas fa-check gold-text"></i> Technical Analysis</li>
+                                <li><i class="fas fa-check gold-text"></i> Price Action Trading</li>
+                                <li><i class="fas fa-check gold-text"></i> Live Trading Sessions</li>
+                                <li><i class="fas fa-check gold-text"></i> Custom Indicators</li>
+                                <li><i class="fas fa-check gold-text"></i> 3 Months Access</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn gold-btn">Get Started</a>
+                    </div>
+                    
+                    <!-- VIP Forex Package -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>VIP Mentorship</h3>
+                            <div class="price-box">
+                                <span class="current-price">$150</span>
+                                <span class="old-price">$300</span>
+                                <span class="discount-badge">Save 50%</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check gold-text"></i> 1-on-1 Coaching</li>
+                                <li><i class="fas fa-check gold-text"></i> Custom Strategies</li>
+                                <li><i class="fas fa-check gold-text"></i> Weekly Analysis</li>
+                                <li><i class="fas fa-check gold-text"></i> Risk Assessment</li>
+                                <li><i class="fas fa-check gold-text"></i> 24/7 Support</li>
+                                <li><i class="fas fa-check gold-text"></i> 6 Months Access</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn outline-btn">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Social Media Packages -->
+            <div class="pricing-content" id="social">
+                <div class="pricing-grid">
+                    <!-- Basic Social Package -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Starter Package</h3>
+                            <div class="price-box">
+                                <span class="current-price">KSH 3,999/mo</span>
+                                <span class="old-price">KSH 4,999/mo</span>
+                                <span class="discount-badge">Save 25%</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check gold-text"></i> 3 Posts Per Week</li>
+                                <li><i class="fas fa-check gold-text"></i> 1 Platform</li>
+                                <li><i class="fas fa-check gold-text"></i> Basic Analytics</li>
+                                <li><i class="fas fa-check gold-text"></i> Content Strategy</li>
+                                <li><i class="fas fa-check gold-text"></i> Monthly Report</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn outline-btn">Get Started</a>
+                    </div>
+                    
+                    <!-- Professional Social Package -->
+                    <div class="pricing-card featured">
+                        <div class="popular-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <h3>Growth Package</h3>
+                            <div class="price-box">
+                                <span class="current-price">KSH 5,599/mo</span>
+                                <span class="old-price">KSH 8,999/mo</span>
+                                <span class="discount-badge">Save 22%</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check gold-text"></i> 5 Posts Per Week</li>
+                                <li><i class="fas fa-check gold-text"></i> 2 Platforms</li>
+                                <li><i class="fas fa-check gold-text"></i> Advanced Analytics</li>
+                                <li><i class="fas fa-check gold-text"></i> Engagement Strategy</li>
+                                <li><i class="fas fa-check gold-text"></i> Hashtag Research</li>
+                                <li><i class="fas fa-check gold-text"></i> Bi-Weekly Report</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn gold-btn">Get Started</a>
+                    </div>
+                    
+                    <!-- Premium Social Package -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Premium Package</h3>
+                            <div class="price-box">
+                                <span class="current-price">KSH 7,599/mo</span>
+                                <span class="old-price">KSH 9,599/mo</span>
+                                <span class="discount-badge">Save 19%</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check gold-text"></i> Daily Posts</li>
+                                <li><i class="fas fa-check gold-text"></i> 3 Platforms</li>
+                                <li><i class="fas fa-check gold-text"></i> Full Funnel Strategy</li>
+                                <li><i class="fas fa-check gold-text"></i> Ad Campaign Management</li>
+                                <li><i class="fas fa-check gold-text"></i> Competitor Analysis</li>
+                                <li><i class="fas fa-check gold-text"></i> Weekly Report</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn outline-btn">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Solutions Section -->
+    <section class="custom-solutions gold-bg-section">
+        <div class="container">
+            <div class="custom-content">
+                <h2>Need <span class="dark-text">Custom</span> Solutions?</h2>
+                <div class="section-divider dark-bg"></div>
+                <p>I understand that every business has unique needs. If you don't see exactly what you're looking for, I'm happy to create a custom package tailored specifically for your requirements.</p>
+                <a href="contact.html" class="btn dark-btn">Request Custom Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently <span class="gold-text">Asked Questions</span></h2>
+            <div class="section-divider"></div>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What payment methods do you accept?</h3>
+                        <i class="fas fa-plus gold-text"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I accept payments via PayPal, bank transfer, and mobile money for local clients. A 50% deposit is required to begin work on any project, with the balance due upon completion.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does a typical project take?</h3>
+                        <i class="fas fa-plus gold-text"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Project timelines vary based on scope. A basic website takes 2-3 weeks, while complex web applications may require 2-3 months. Design projects typically take 1-2 weeks. Exact timelines will be provided in your project proposal.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer ongoing maintenance?</h3>
+                        <i class="fas fa-plus gold-text"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, I offer monthly maintenance plans starting at $99/month. These include updates, backups, security monitoring, and minor content changes. Custom maintenance plans are also available.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I upgrade my package later?</h3>
+                        <i class="fas fa-plus gold-text"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! You can upgrade your package at any time. Any payments you've already made will be credited toward your upgraded package.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="gold-text">Joseph Muigai</span>
+                    <p>Professional Web Developer & Digital Expert</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Me</h3>
+                    <div class="social-links">
+                        <a href="https://wa.me/254795761885" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://pinterest.com/5X2gVowKx" target="_blank"><i class="fab fa-pinterest"></i></a>
+                        <a href="https://instagram.com/mjomba_designs?igsh=MzNINGNkZWQ4Mg==" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/profile.php?id=61576982536310" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span class="gold-text">2023 Joseph Muigai</span>. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
